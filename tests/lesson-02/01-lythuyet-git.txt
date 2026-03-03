@@ -1,0 +1,4 @@
+git init: khởi tạo Git cho project
+git add <file name>: đưa một file vào vùng chờ commit (staging area)
+git add .: add tất cả các file đã thay đổi (bao gồm file mới, file đã bị chỉnh sửa, file bị xóa) trong thư mực hiện tại
+git commit -m "message": lưu lại trạng thái hiện tại của những file đã add kèm theo một message để sau này bạn biết mình đã làm gì

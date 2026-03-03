@@ -1,0 +1,24 @@
+a. Tạo 3 file: file1, file2, file3 trong folder
+- Vùng Working directory: file1, file2, file3
+- Vùng Staging area: trống
+- Vùng Repository: trống
+b. Chạy lệnh git init: 
+- Vùng Working directory: file1, file2, file3
+- Vùng Staging area: trống
+- Vùng Repository: trống
+c. Chạy git commit -m "init project" -> lệnh này sẽ fail vì chưa có file nào được add vào staging area
+- Vùng Working directory: file1, file2, file3
+- Vùng Staging area: trống
+- Vùng Repository: trống
+d. Chạy git add file1: add file1 vào staging area
+- Vùng Working directory: file1, file2, file3
+- Vùng Staging area: file1
+- Vùng Repository: trống
+e. Chạy git commit -m "add file1": commit những gì đang ở staging area (chỉ có file1) và file1 đươc đưa vào Repository
+- Vùng Working directory: file1, file2, file3
+- Vùng Staging area: trống
+- Vùng Repository: file1
+f. Chạy git commit -m "add file" -> fail vì không có file nào trong staging area
+- Vùng Working directory: file1, file2, file3
+- Vùng Staging area: trống
+- Vùng Repository: file1
